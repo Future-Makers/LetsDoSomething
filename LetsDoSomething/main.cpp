@@ -2,7 +2,7 @@
 and may not be redistributed without written permission.*/
 
 //Using SDL and standard IO
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include <stdio.h>
 
 //Screen dimension constants
@@ -22,7 +22,7 @@ int main(int argc, char* args[])
 	canvas = SDL_LoadBMP("lel.bmp");
 	if (canvas == nullptr)
 	{
-
+		
 	}
 
 	//Initialize SDL
