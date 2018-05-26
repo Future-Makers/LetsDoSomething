@@ -23,7 +23,7 @@ int main(int argc, char* args[])
 	canvas = SDL_LoadBMP("lel.bmp");
 	if (canvas == nullptr)
 	{
-
+		
 	}
 
 	//Initialize SDL
