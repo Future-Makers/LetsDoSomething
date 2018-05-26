@@ -3,17 +3,13 @@
 
 #include <SDL2/SDL.h>
 
-#define PLAYER_RECT_WIDTH 10
-#define PLAYER_RECT_HEIGHT 10
+#define PLAYER_RECT_WIDTH 100
+#define PLAYER_RECT_HEIGHT 100
 
 class Player
 {
 public:
-    Player(int x, int y)
-    {
-        this->x_ = x;
-        this->y_ = y;
-    }
+    Player(int x, int y) : x_{x}, y_{y} {}
 
     bool draw_player(SDL_Renderer* renderer);
     
